@@ -71,6 +71,18 @@
             </NuxtLink>
           </li>
           <li>
+            <NuxtLink class="text-base" href="/">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span>Generate Link</span>
+            </NuxtLink>
+          </li>
+          <!-- Bank accounts
+          <li>
             <NuxtLink class="text-base" href="/bank-accounts">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +92,10 @@
               </svg>
               <span>Bank accounts</span>
             </NuxtLink>
-          </li>
+          </li>-->
+          <!--
+            Settings 
+          
           <li>
             <NuxtLink class="text-base" href="/settings">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
@@ -92,7 +107,7 @@
               </svg>
               <span>Settings</span>
             </NuxtLink>
-          </li>
+          </li>-->
         </ul>
       </div>
       <div class="navbar-end">
@@ -103,6 +118,7 @@
               stroke-linejoin="round" />
           </svg>
         </NuxtLink>
+        <!-- Notification SM
         <button class="btn btn-ghost btn-circle">
           <div class="indicator">
             <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -112,7 +128,7 @@
             </svg>
             <span class="badge badge-xs badge-primary indicator-item"></span>
           </div>
-        </button>
+        </button>-->
         <NuxtLink class="btn btn-square btn-ghost" href="/login">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
