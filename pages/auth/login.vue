@@ -1,8 +1,7 @@
 <template>
-    <div>
-      <LoginForm />
-    </div>
-
+  <div>
+    <LoginForm />
+  </div>
 </template>
 
 <script setup lang="ts">

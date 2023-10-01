@@ -1,4 +1,7 @@
 <template>
+  <html data-theme="emerald">
+
+  </html>
   <nav>
     <div class="navbar bg-base-100">
       <div class="navbar-start">
@@ -124,11 +127,16 @@
       </div>
     </div>
   </nav>
+
+  <div class="w-full">
+    <div class="p-4 mt-8">
+      <slot />
+
+    </div>
+  </div>
 </template>
 
-<script>
-
-
+<script lang="ts" setup>
 </script>
 
-<style></style>
+<style scoped></style>
