@@ -5,11 +5,12 @@
       <div>
         <FilterButtons />
       </div>
-      <!-- 2 Buttons commended 
-      <div class="flex space-x-4">
+      <!--<div class="flex space-x-4">
         <input type="text" placeholder="Search" class="input input-bordered w-full max-w-xs" />
         <GetNewInvoiceButton @click="showModal = true" />
       </div>-->
+      <GetNewInvoiceButton @click="showModal = true" />
+
     </div>
     <InvoicesTable />
     <GenerateLinkModal v-if="showModal" @close="showModal = false" />

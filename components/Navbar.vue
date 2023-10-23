@@ -9,6 +9,7 @@
               <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </label>
+          <!--
           <ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52" tabIndex={0}>
             <li>
               <NuxtLink href="/">
@@ -53,13 +54,13 @@
                 </svg>
               </NuxtLink>
             </li>
-          </ul>
+          </ul>-->
         </div>
         <NuxtLink class="btn btn-ghost normal-case text-xl" href="/">Pekasa</NuxtLink>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
-          <li>
+          <!--<li>
             <NuxtLink class="text-base" href="/">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +81,7 @@
               </svg>
               <span>Generate Link</span>
             </NuxtLink>
-          </li>
+          </li>-->
           <!-- Bank accounts
           <li>
             <NuxtLink class="text-base" href="/bank-accounts">
