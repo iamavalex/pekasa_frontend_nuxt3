@@ -13,6 +13,14 @@
             Incomming invoce
           </h3>
 
+          <!-- Link Name Input -->
+          <div class="mb-6">
+            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name your link:</label>
+            <input type="text" v-model="linkName"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Enter the name for your link: example Tech expenses, Operational Expenses, Food delivery">
+          </div>
+
           <!-- Option buttons aligned horizontally -->
           <div class="mb-6">
             <h4 class="font-semibold text-gray-700 mb-2">1. Select the options to include in the Invoice for thorough
@@ -34,7 +42,7 @@
                 @click="option4Selected = !option4Selected" class="px-4 py-2 border rounded">
                 Name
               </button>
-              
+
             </div>
           </div>
 
@@ -45,7 +53,8 @@
               <div v-for="account in accounts" :key="account.id" @click="toggleSelection(account.id)"
                 class="card w-60 h-40 bg-base-100 border border-gray-300 relative cursor-pointer">
                 <!-- Checkbox -->
-                <input type="checkbox" :checked="account.selected" @change="toggleSelection(account.id)" class="checkbox checkbox-primary absolute top-2 right-2" />
+                <input type="checkbox" :checked="account.selected" @change="toggleSelection(account.id)"
+                  class="checkbox checkbox-primary absolute top-2 right-2" />
 
                 <!-- Icon and Content -->
                 <div class="card-body flex">
@@ -69,7 +78,8 @@
             <h4 class="font-semibold text-gray-700 mb-2">4. Please specify both the amount and currency for this invoice:
               *</h4>
             <div class="flex space-x-4">
-              <input type="text" placeholder="Amount" class="mt-1 form-input w-1/2 border-gray-300 rounded">
+              <input type="text" placeholder="Amount"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
               <div class="relative w-1/2">
                 <select class="form-select block w-full mt-1 border-gray-300 rounded">
                   <option>USD</option>
@@ -121,6 +131,8 @@
 import { ref } from 'vue';
 
 const emits = defineEmits(["close"]);
+const linkName = ref('');
+
 
 const option1Selected = ref(false);
 const option2Selected = ref(false);

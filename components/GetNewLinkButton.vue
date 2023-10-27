@@ -1,5 +1,5 @@
 <template>
-  <button class="btn btn-primary text-white">New Invoice
+  <button class="btn btn-primary text-white">New Link
   </button>
 </template>
 
