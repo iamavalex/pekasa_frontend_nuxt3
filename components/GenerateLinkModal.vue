@@ -73,7 +73,7 @@
               </div>
             </div>
           </div>
-          <!-- Input fields for amount and currency -->
+          <!-- Input fields for amount and currency 
           <div class="mb-6">
             <h4 class="font-semibold text-gray-700 mb-2">4. Please specify both the amount and currency for this invoice:
               *</h4>
@@ -85,11 +85,11 @@
                   <option>USD</option>
                   <option>EUR</option>
                   <option>JPY</option>
-                  <!-- Add more currencies as needed -->
+                   Add more currencies as needed 
                 </select>
               </div>
             </div>
-          </div>
+          </div>-->
 
           <!-- Input fields for Suppliers name and Description -->
           <div class="mb-6 flex space-x-4">

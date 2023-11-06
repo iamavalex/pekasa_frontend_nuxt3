@@ -7,7 +7,7 @@
             </div>
             <div class="flex space-x-4">
                 <input type="text" placeholder="Search" class="input input-bordered w-full max-w-xs" />
-                <GetNewInvoiceButton @click="showModal = true" />
+                <GetNewLinkButton @click="showModal = true" />
             </div>
         </div>
         <InvoicesTable />
@@ -21,7 +21,7 @@ definePageMeta({
 });
 import { ref } from 'vue';
 import InvoicesTable from '@/components/InvoicesTable.vue';
-import GetNewInvoiceButton from '@/components/GetNewInvoiceButton.vue';
+import GetNewLinkButton from '@/components/GetNewLinkButton.vue';
 import GenerateLinkModal from '@/components/GenerateLinkModal.vue';
 
 const showModal = ref(false);

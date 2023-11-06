@@ -16,7 +16,6 @@
 
 import { ref } from 'vue';
 import InvoicesTable from '@/components/InvoicesTable.vue';
-import GetNewInvoiceButton from '@/components/GetNewInvoiceButton.vue';
 import GenerateLinkModal from '@/components/GenerateLinkModal.vue';
 
 const showModal = ref(false);
